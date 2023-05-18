@@ -1,0 +1,63 @@
+/* Styles communs pour les formulaires */
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  text-align: center;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+}
+
+.form-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Styles spécifiques pour le formulaire d'inscription */
+form[action="register_form.php"] input[type="text"],
+form[action="register_form.php"] input[type="email"],
+form[action="register_form.php"] input[type="password"],
+form[action="register_form.php"] select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styles spécifiques pour le formulaire de connexion */
+form[action="login_form.php"] input[type="email"],
+form[action="login_form.php"] input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
